@@ -1,0 +1,116 @@
+# =========================
+# OS-SPECIFIC IGNORE (macOS)
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# JetBrains Rider
+# =========================
+.idea/
+.idea_modules/
+.idea/*
+*.iml
+*.iws
+out/
+
+# User-specific files
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Rider caches
+.idea/**/contentModel.xml
+.idea/**/modules.xml
+.idea/**/assetWizardSettings.xml
+.idea/**/deployment.xml
+.idea/**/shelf/
+.idea/**/vcs.xml
+
+# =========================
+# .NET BUILD FILES
+# =========================
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Rider settings folder
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.log
+*.vspscc
+*.vssscc
+*.vsp
+*.vsmdi
+*.psess
+*.pidb
+*.scc
+*.ncrunch*
+TestResult.xml
+*.cache
+*.dbmdl
+
+# =========================
+# Visual Studio / Rider cache
+# =========================
+.vs/
+.vscode/
+_ReSharper.Caches/
+_ReSharper*/
+*.DotSettings.user
+
+# =========================
+# Package directories
+# =========================
+node_modules/
+packages/
+*.nupkg
+*.snupkg
+*.tar.gz
+
+# =========================
+# Unity (optional)
+# =========================
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+*.unityproj
+*.sln*
+*.userprefs
+
